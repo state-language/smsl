@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title description">
+<title id="title">State Language</title>
+<desc id="description">Six larger circular states on a regular flat-top hexagon, connected by five straight transitions tracing an upright angular S.</desc>
+<polyline points="172.000000,51.789764 84.000000,51.789764 40.000000,128.000000 216.000000,128.000000 172.000000,204.210236 84.000000,204.210236" fill="none" stroke="#243654" stroke-width="12" stroke-linejoin="round"/>
+<circle cx="172.000000" cy="51.789764" r="24" fill="#168B83"/>
+<circle cx="84.000000" cy="51.789764" r="24" fill="#243654"/>
+<circle cx="40.000000" cy="128.000000" r="24" fill="#243654"/>
+<circle cx="216.000000" cy="128.000000" r="24" fill="#243654"/>
+<circle cx="172.000000" cy="204.210236" r="24" fill="#243654"/>
+<circle cx="84.000000" cy="204.210236" r="24" fill="#243654"/>
+</svg>

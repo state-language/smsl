@@ -1,0 +1,18 @@
+[package]
+name = "smsl-core"
+description = "Compiler, component architecture, and runtime for State Language"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+
+quick-xml = "0.41"
+saphyr-parser = "0.0.12"
+toml = "1.1"
+sha2 = "0.10"
+flate2 = { version = "1", default-features = false, features = ["rust_backend"] }

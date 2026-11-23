@@ -1,0 +1,16 @@
+[package]
+name = "smsl-cli"
+description = "Validate, format and convert State Language documents"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "smsl"
+path = "src/main.rs"
+
+[dependencies]
+smsl-core.workspace = true
+serde_json.workspace = true

@@ -1,0 +1,17 @@
+[package]
+name = "smsl-ffi"
+description = "C ABI for the State Language compiler and runtime"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[lib]
+name = "smsl"
+crate-type = ["rlib", "cdylib", "staticlib"]
+
+[dependencies]
+smsl-core.workspace = true
+serde.workspace = true
+serde_json.workspace = true
